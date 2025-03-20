@@ -1,0 +1,64 @@
+body{
+    background-image: url(f2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    padding: 10px 150px;
+    background: #3f00ee;
+    position: relative;
+    border-radius: 7pt;
+    font-size: 19px;
+}
+h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 38px;
+    color: #ff0000; /* Rojo intenso */
+    text-shadow: 3px 3px 10px rgba(255, 0, 0, 0.8); /* Sombra roja */
+    margin-top: 20px;
+}
+table{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: rgb(17, 21, 236); 
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+}
+th{
+    color: rgb(17, 16, 16);
+    text-align: left;
+    transition: background-color 1s, box-shadow 1s;
+}
+th:hover {
+    background-color: #ac1308; 
+    cursor: pointer;
+}
+.circular{
+    border-radius: 150px;
+    object-fit: cover;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    color: #009e0d;
+}
+p{
+    font-family: 'Metal Mania', cursive;
+    font-size: 40px;
+    color: #0004ff; /* Amarillo dorado */
+    text-shadow: 2px 2px 5px rgba(55, 0, 255, 0.8);
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 50px;
+}
+p:hover {
+    color: #ffd000; /* Naranja fuego */
+    text-shadow: 4px 4px 10px rgba(255, 69, 0, 0.9);
+}

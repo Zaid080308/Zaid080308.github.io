@@ -1,0 +1,48 @@
+body{
+    background-image: url(f5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    padding: 10px 150px;
+    background: #f12929;
+    position: relative;
+    border-radius: 7pt;
+    font-size: 19px;
+}
+table{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: rgb(202, 118, 22); 
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+}
+th{
+    padding: 10px;
+    color: rgb(0, 1, 2);
+    text-align: left;
+    transition: background-color 1s, box-shadow 1s;
+}
+th:hover {
+    background-color: #dbf01c; 
+    cursor: pointer;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    color: #f81404;
+}
+.circular{
+    border-radius: 150px;
+    object-fit: cover;
+}
+h1{
+    color: aliceblue;
+}
